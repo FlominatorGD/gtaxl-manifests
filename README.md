@@ -1,4 +1,4 @@
-# Manifest for building LineageOS 19.1 for gtaxlwifi, gtaxllte, gtanotexlwifi, and gtanotexllte
+# Manifest for building LineageOS 20 for gtaxlwifi, gtaxllte, gtanotexlwifi, and gtanotexllte
 
 `gtaxlwifi` is the codename for the WiFi-only variant of the Samsung Galaxy Tab A 10.1" (2016), with model SM-T580.
 
@@ -11,18 +11,18 @@
 Some extremely basic instructions:
 - Make a new directory for LineageOS sources and enter it:
 ```
-mkdir lineage-19.1
-cd lineage-19.1
+mkdir lineage-20
+cd lineage-20
 ```
 
-- Initialize repo in this directory with the LineageOS 19.1 android repository:
+- Initialize repo in this directory with the LineageOS 20 android repository:
 ```
-repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1 --git-lfs
+repo init -u https://github.com/LineageOS-UL/android.git -b lineage-20 --git-lfs
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
 ```
-git clone https://github.com/FlominatorGD/gtaxl-manifests.git -b lineage-19.1 .repo/local_manifests
+git clone https://github.com/FlominatorGD/gtaxl-manifests.git -b lineage-20 .repo/local_manifests
 ```
 
 - Sync all of the repositories in manifests (including LineageOS manifests):
