@@ -32,7 +32,5 @@ repo sync --force-sync --no-tags --no-clone-bundle -c
 
 - Finally, build as you like. For example, for a recovery-installable package for gtaxlwifi:
 ```
-. build/envsetup.sh
-lunch lineage_gtaxlwifi-userdebug
-mka otapackage
+. build/envsetup.sh && brunch lineage_gtaxlwifi-userdebug
 ```
