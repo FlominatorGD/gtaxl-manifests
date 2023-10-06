@@ -4,7 +4,7 @@
   <project name="K9100ii/android_external_aptxenc" path="external/aptxenc" remote="github" revision="android12L" />
 
   <!-- Device trees -->
-  <project name="K9100ii/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
+  <project name="FlominatorGD/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
   <project name="K9100ii/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
   <project name="K9100ii/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="lineage-19.1" />
   <project name="K9100ii/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-19.1" />
@@ -14,7 +14,7 @@
   <project name="K9100ii/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
   <project name="K9100ii/android_vendor_samsung_gtaxllte" path="vendor/samsung/gtaxllte" remote="github" revision="lineage-19.1" />
   <!-- Kernel sources -->
-  <project name="K9100ii/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-19.1" />
+  <project name="FlominatorGD/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-19.1-gtaxl" />
 
   <!-- Linaro SLSI BSP sources -->
   <project name="K9100ii/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-19.1" />
