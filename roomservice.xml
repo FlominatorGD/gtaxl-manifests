@@ -7,7 +7,6 @@
   <project name="android_external_aptxenc" path="external/aptxenc" remote="talu" revision="android12L" />
 
   <!-- Device trees -->
-  <project name="android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="talu" revision="lineage-19.1" />
   <project name="android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="talu" revision="lineage-19.1" />
   <project name="android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="talu" revision="lineage-19.1" />
   <project name="android_device_samsung_gtanotexllte" path="device/samsung/gtanotexllte" remote="talu" revision="lineage-19.1" />
@@ -28,6 +27,7 @@
   <remote fetch="https://github.com/FlominatorGD" name="Flominator" />
   <!-- Device trees -->
   <project name="android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="Flominator" revision="lineage-19.1" />
+  <project name="android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="Flominator" revision="lineage-19.1" />
   <!-- Kernel sources -->
   <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="Flominator" revision="lineage-19.1-gtaxl" />
   
